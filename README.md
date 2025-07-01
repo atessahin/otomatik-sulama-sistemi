@@ -2,18 +2,16 @@
 Bu proje, STM32F4 mikrodenetleyicisi kullanılarak geliştirilen, **YL-69 nem sensörü** yardımıyla toprağın nem seviyesine göre **otomatik olarak sulama yapan bir sistemdir**.
 
 
-## 🔧 Kullanılan Teknolojiler
+## Kullanılan Teknolojiler
 - **Mikrodenetleyici**: STM32F407 
 - **Programlama Dili**: C (STM32 HAL/LL kütüphanesi kullanılmadan, doğrudan register bazlı)
 - **IDE**: STM32CubeIDE / Keil / PlatformIO uyumlu
 - **Donanım Katmanı**: GPIO, SysTick, RCC, UART
 
-## 📁 Proje Dosyaları
- -**config.c**:    Sistem saat ayarları, GPIO konfigürasyonu, UART kurulumları ve delay fonksiyonu 
- -**functionality.c**:  Sensör verisinin okunması, sulama kararlarının verilmesi, motorun kontrol edilmesi 
- -**config.h**:        Fonksiyon prototipleri ve tanımlar 
-
-
+## Kullanılan Teknolojiler
+- **config.c**:  Sistem saat ayarları, GPIO konfigürasyonu, UART kurulumları ve delay fonksiyonu 
+- **functionality.c**: Sensör verisinin okunması, sulama kararlarının verilmesi, motorun kontrol edilmesi 
+- **config.h**: Fonksiyon prototipleri ve tanımlar 
 
 ## Donanım Gereksinimleri
 - STM32F4 Geliştirme Kartı
