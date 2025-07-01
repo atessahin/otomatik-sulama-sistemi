@@ -9,9 +9,9 @@ Bu proje, STM32F4 mikrodenetleyicisi kullanılarak geliştirilen, **YL-69 nem se
 - **Donanım Katmanı**: GPIO, SysTick, RCC, UART
 
 ## 📁 Proje Dosyaları
- `config.c`        Sistem saat ayarları, GPIO konfigürasyonu, UART kurulumları ve delay fonksiyonu 
- `functionality.c` Sensör verisinin okunması, sulama kararlarının verilmesi, motorun kontrol edilmesi 
- `config.h`        Fonksiyon prototipleri ve tanımlar 
+ -`config.c`        Sistem saat ayarları, GPIO konfigürasyonu, UART kurulumları ve delay fonksiyonu 
+ -`functionality.c` Sensör verisinin okunması, sulama kararlarının verilmesi, motorun kontrol edilmesi 
+ -`config.h`        Fonksiyon prototipleri ve tanımlar 
 
 
 
